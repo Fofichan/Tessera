@@ -75,6 +75,11 @@ if (keyboard_check(ord("W")) ||keyboard_check(ord("S")) || keyboard_check(ord("A
 }
 #endregion
 
+#region TOGGLE DISPLAY
+
+if (keyboard_check_pressed(vk_tab)) display_all_heights = !display_all_heights;
+#endregion
+
 
 #region CHANGE THE HEIGHT
 

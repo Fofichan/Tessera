@@ -58,5 +58,10 @@ max_height =12;
 current_part = e_tile_data.floor_index;
 current_sprite = global.cell_sprites[current_part];
 
+display_all_heights =true;
+
+current_map_number = 0;
+battle_map_list = ds_list_create();
+
 
 #endregion

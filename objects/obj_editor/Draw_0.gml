@@ -16,17 +16,21 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 		//draw_sprite(spr_pasto1, index, draw_x, draw_y);
 	
 		for (var draw_height =0 ; draw_height<= height;draw_height++){
-			draw_y = (_xx + _yy) * (iso_height / 2) -(draw_height*(iso_height/2));
+			
+			
+			if(display_all_heights ==false && draw_height <= current_height || (display_all_heights== true)){
+				draw_y = (_xx + _yy) * (iso_height / 2) -(draw_height*(iso_height/2));
 			//draw_sprite(spr_pasto1, floor_ind, draw_x, draw_y);
 			
-			var rgb_value = 150 + (draw_height * 9);
-			var col = make_color_rgb(rgb_value,rgb_value,rgb_value);
-			draw_sprite_ext(spr_pasto1,floor_ind,draw_x,draw_y,1,1,0,col,1);
+				var rgb_value = 150 + (draw_height * 9);
+				var col = make_color_rgb(rgb_value,rgb_value,rgb_value);
+				draw_sprite_ext(spr_pasto1,floor_ind,draw_x,draw_y,1,1,0,col,1);
 			
-			if(draw_height ==height){
-				var spr =global.cell_sprites[e_tile_data.decoration_index];
-				var index = list[|e_tile_data.decoration_index];
-				draw_sprite_ext(spr,index,draw_x,draw_y,1,1,0,col,1);
+				if(draw_height ==height){
+					var spr =global.cell_sprites[e_tile_data.decoration_index];
+					var index = list[|e_tile_data.decoration_index];
+					draw_sprite_ext(spr,index,draw_x,draw_y,1,1,0,col,1);
+				}
 			}
 				
 				
