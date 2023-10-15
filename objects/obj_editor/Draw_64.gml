@@ -4,7 +4,10 @@ var draw_x = display_get_gui_width() / 2;
 var draw_y = display_get_gui_height() - 32;
 var scale = 2;
 
-draw_sprite_ext(spr_pasto1, new_index, draw_x, draw_y, scale, scale, 0, c_white, 1);
+//draw_sprite_ext(spr_pasto1, new_index, draw_x, draw_y, scale, scale, 0, c_white, 1);
+
+var spr= global.cell_sprites[current_part];
+draw_sprite_ext(spr,new_index,draw_x,draw_y,scale,scale,0,c_white,1);
 
 #endregion
 
