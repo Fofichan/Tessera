@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_pasto1","path":"sprites/spr_pasto1/spr_pasto1.yy",},},
+    {"id":{"name":"scr_save_map","path":"scripts/scr_save_map/scr_save_map.yy",},},
     {"id":{"name":"spr_pasto18","path":"sprites/spr_pasto18/spr_pasto18.yy",},},
     {"id":{"name":"spr_rocks","path":"sprites/spr_rocks/spr_rocks.yy",},},
     {"id":{"name":"spr_iso_cursor","path":"sprites/spr_iso_cursor/spr_iso_cursor.yy",},},

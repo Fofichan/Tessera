@@ -38,7 +38,7 @@ if (keyboard_check_pressed(vk_left)){
 	}
 	else {
 		//new_index = (sprite_get_number(spr_pasto1) -1);
-		#region change tile part
+		
 		if(current_part -1) >=0 current_part -- ;
 		else current_part = e_tile_data.decoration_index;
 		current_sprite = gloal.cell_sprites[current_part];
@@ -78,6 +78,12 @@ if (keyboard_check(ord("W")) ||keyboard_check(ord("S")) || keyboard_check(ord("A
 #region TOGGLE DISPLAY
 
 if (keyboard_check_pressed(vk_tab)) display_all_heights = !display_all_heights;
+#endregion
+
+#region save /load/ create/delete
+
+if(keyboard_check_pressed(vk_f5))battle_map_list[| current_map_number] = scr_save_map(current_map_number, ds_terrain_data);
+
 #endregion
 
 
