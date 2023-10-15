@@ -17,7 +17,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Pasto","order":1,"path":"sprites/Pasto/Pasto.yy",},
+    {"name":"spr_pasto1","order":4,"path":"sprites/spr_pasto1/spr_pasto1.yy",},
+    {"name":"spr_rocks","order":2,"path":"sprites/spr_rocks/spr_rocks.yy",},
+    {"name":"spr_iso_cursor","order":7,"path":"sprites/spr_iso_cursor/spr_iso_cursor.yy",},
+    {"name":"spr_cursor","order":6,"path":"sprites/spr_cursor/spr_cursor.yy",},
+    {"name":"Tess","order":5,"path":"sprites/Tess/Tess.yy",},
+    {"name":"Sprite6","order":3,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"spr_iso_width_height","order":1,"path":"sprites/spr_iso_width_height/spr_iso_width_height.yy",},
   ],
 }

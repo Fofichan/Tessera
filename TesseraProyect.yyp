@@ -34,9 +34,15 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
-    {"id":{"name":"Pasto","path":"sprites/Pasto/Pasto.yy",},},
+    {"id":{"name":"spr_pasto1","path":"sprites/spr_pasto1/spr_pasto1.yy",},},
+    {"id":{"name":"spr_rocks","path":"sprites/spr_rocks/spr_rocks.yy",},},
+    {"id":{"name":"spr_iso_cursor","path":"sprites/spr_iso_cursor/spr_iso_cursor.yy",},},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_editor","path":"objects/obj_editor/obj_editor.yy",},},
+    {"id":{"name":"Tess","path":"sprites/Tess/Tess.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+    {"id":{"name":"spr_iso_width_height","path":"sprites/spr_iso_width_height/spr_iso_width_height.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
