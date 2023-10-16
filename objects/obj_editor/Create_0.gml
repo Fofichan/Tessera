@@ -63,5 +63,9 @@ display_all_heights =true;
 current_map_number = 0;
 battle_map_list = ds_list_create();
 
+total_maps=0;
+
 
 #endregion
+
+scr_load_game_data();

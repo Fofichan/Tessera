@@ -86,6 +86,51 @@ if(keyboard_check_pressed(vk_f5))battle_map_list[| current_map_number] = scr_sav
 
 #endregion
 
+#region LOAD MAP
+//dont need to run this code if there are no saved battle maps
+
+if (ds_list_size(battle_map_list) > 0){
+
+	if(keyboard_check(vk_shift) ){
+		//LOAD PREVIOUS MAP
+		if keyboard_check_pressed( ord("Q") ){
+			//change map nunber
+			if (current_map_number > 0) current_map_number --;
+			else current_map_number = ( ds_list_size(battle_map_list) - 1);
+
+			//Load grid from battle map list
+			scr_load_map(current_map_number, ds_terrain_data, battle_map_list);
+		}else{
+			//LOAD NEXT MAP
+			if keyboard_check_pressed( ord("E")) {
+				if (current_map_number + 1) < ds_list_size(battle_map_list) current_map_number ++;
+				else current_map_number = 0;
+
+			scr_load_map(current_map_number, ds_terrain_data, battle_map_list);
+
+			}
+		}
+	}
+}
+
+#endregion
+
+#region CREATE NEW MAP
+if(keyboard_check_pressed(vk_enter)) scr_create_new_map(battle_map_list,ds_terrain_data);
+
+#endregion
+
+#region delete map
+if(keyboard_check_pressed(vk_backspace)){
+	current_map_number = scr_delete_map(current_map_number,battle_map_list);
+	if(ds_list_size(battle_map_list)>0){
+		ds_terrain_data = scr_load_map(current_map_number,ds_terrain_data,battle_map_list);
+	}
+	else scr_create_new_map(battle_map_list,ds_terrain_data);
+}
+	
+#endregion
+
 
 #region CHANGE THE HEIGHT
 
