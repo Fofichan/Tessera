@@ -1,5 +1,5 @@
-for (var _yy = 0; _yy < vcells; _yy ++){
-	for( var _xx = 0; _xx < hcells; _xx ++){
+for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
+	for( var _xx = 0; _xx < ds_grid_width(ds_terrain_data); _xx ++){
 		
 		#region DRAW CELL
 		
@@ -7,7 +7,7 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 		
 		//index = ds_terrain_data[# _xx, _yy];
 		floor_ind = list[| e_tile_data.floor_index];
-		height =list[|e_tile_data.height];
+		height =list[| e_tile_data.height];
 		
 		draw_x = (_xx - _yy) * (iso_width / 2);
 		//draw_y = (_xx + _yy) * (iso_height / 2);
@@ -18,7 +18,7 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 		for (var draw_height =0 ; draw_height<= height;draw_height++){
 			
 			
-			if(display_all_heights ==false && draw_height <= current_height || (display_all_heights== true)){
+			if((display_all_heights ==false && draw_height <= current_height) || (display_all_heights== true)){
 				draw_y = (_xx + _yy) * (iso_height / 2) -(draw_height*(iso_height/2));
 			//draw_sprite(spr_pasto1, floor_ind, draw_x, draw_y);
 			

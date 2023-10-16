@@ -44,6 +44,7 @@
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"scr_load_game_data","path":"scripts/scr_load_game_data/scr_load_game_data.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_save_game_data","path":"scripts/scr_save_game_data/scr_save_game_data.yy",},},
     {"id":{"name":"obj_editor","path":"objects/obj_editor/obj_editor.yy",},},
     {"id":{"name":"Tess","path":"sprites/Tess/Tess.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
