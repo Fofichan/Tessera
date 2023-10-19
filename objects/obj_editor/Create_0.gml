@@ -8,8 +8,8 @@ enum e_tile_data{
 
 #endregion
 #region SETUP A GRID
-hcells = 20;
-vcells = 20;
+hcells = 100;
+vcells = 100;
 
 #macro GRID_SIZE 16
 
