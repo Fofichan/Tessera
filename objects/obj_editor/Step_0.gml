@@ -70,7 +70,7 @@ if (mouse_check_button(mb_left)){
 #endregion
 
 #region MOVE THE CAMERA
-if(!keyboard_check(vk_shift)){
+if(keyboard_check(vk_control)){
 	if(keyboard_check(ord("W"))) cy -=10;
 	if(keyboard_check(ord("S"))) cy +=10;
 	if(keyboard_check(ord("A"))) cy -=10;
@@ -219,6 +219,22 @@ if(keyboard_check(vk_shift)){
 }
 	
 	#endregion
+
+#endregion
+
+#region change2
+
+
+	if(keyboard_check_pressed(ord("O"))){
+		if(current_height+1)<max_height current_height++;
+		else current_height =0;
+	}
+	if(keyboard_check_pressed(ord("L"))){
+		if(current_height >0) current_height--;
+		else current_height = (max_height-1);
+	}
+
+
 
 #endregion
 
