@@ -53,10 +53,10 @@
     {"id":{"name":"spr_botton","path":"sprites/spr_botton/spr_botton.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"rm_selection","path":"rooms/rm_selection/rm_selection.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"RoomInicio","path":"rooms/RoomInicio/RoomInicio.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RoomInicio","path":"rooms/RoomInicio/RoomInicio.yy",},},
     {"roomId":{"name":"rm_selection","path":"rooms/rm_selection/rm_selection.yy",},},
     {"roomId":{"name":"rm_view_daughter","path":"rooms/rm_view_daughter/rm_view_daughter.yy",},},
     {"roomId":{"name":"rm_view_mom","path":"rooms/rm_view_mom/rm_view_mom.yy",},},
