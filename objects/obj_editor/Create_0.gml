@@ -8,8 +8,8 @@ enum e_tile_data{
 
 #endregion
 #region SETUP A GRID
-hcells = 100;
-vcells = 100;
+hcells = 30;
+vcells = 30;
 
 #macro GRID_SIZE 16
 
@@ -36,7 +36,7 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 #region SETUP SPRITE ARRAY
 
 global.cell_sprites[e_tile_data.floor_index] =spr_pasto1;
-global.cell_sprites[e_tile_data.decoration_index] =Sprite9;
+global.cell_sprites[e_tile_data.decoration_index] =Sprite30;
 
 #endregion
 #region EXTRA VARIABLES
@@ -58,5 +58,14 @@ max_height =12;
 current_part = e_tile_data.floor_index;
 current_sprite = global.cell_sprites[current_part];
 
+display_all_heights =true;
+
+current_map_number = 1;
+battle_map_list = ds_list_create();
+
+total_maps=0;
+
 
 #endregion
+
+scr_load_game_data();

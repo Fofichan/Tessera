@@ -1,5 +1,5 @@
-for (var _yy = 0; _yy < vcells; _yy ++){
-	for( var _xx = 0; _xx < hcells; _xx ++){
+for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
+	for( var _xx = 0; _xx < ds_grid_width(ds_terrain_data); _xx ++){
 		
 		#region DRAW CELL
 		
@@ -7,7 +7,7 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 		
 		//index = ds_terrain_data[# _xx, _yy];
 		floor_ind = list[| e_tile_data.floor_index];
-		height =list[|e_tile_data.height];
+		height =list[| e_tile_data.height];
 		
 		draw_x = (_xx - _yy) * (iso_width / 2);
 		//draw_y = (_xx + _yy) * (iso_height / 2);
@@ -16,17 +16,21 @@ for (var _yy = 0; _yy < vcells; _yy ++){
 		//draw_sprite(spr_pasto1, index, draw_x, draw_y);
 	
 		for (var draw_height =0 ; draw_height<= height;draw_height++){
-			draw_y = (_xx + _yy) * (iso_height / 2) -(draw_height*(iso_height/2));
+			
+			
+			if((display_all_heights ==false && draw_height <= current_height) || (display_all_heights== true)){
+				draw_y = (_xx + _yy) * (iso_height / 2) -(draw_height*(iso_height/2));
 			//draw_sprite(spr_pasto1, floor_ind, draw_x, draw_y);
 			
-			var rgb_value = 150 + (draw_height * 9);
-			var col = make_color_rgb(rgb_value,rgb_value,rgb_value);
-			draw_sprite_ext(spr_pasto1,floor_ind,draw_x,draw_y,1,1,0,col,1);
+				var rgb_value = 150 + (draw_height * 9);
+				var col = make_color_rgb(rgb_value,rgb_value,rgb_value);
+				draw_sprite_ext(spr_pasto1,floor_ind,draw_x,draw_y,1,1,0,col,1);
 			
-			if(draw_height ==height){
-				var spr =global.cell_sprites[e_tile_data.decoration_index];
-				var index = list[|e_tile_data.decoration_index];
-				draw_sprite_ext(spr,index,draw_x,draw_y,1,1,0,col,1);
+				if(draw_height ==height){
+					var spr =global.cell_sprites[e_tile_data.decoration_index];
+					var index = list[|e_tile_data.decoration_index];
+					draw_sprite_ext(spr,index,draw_x,draw_y,1,1,0,col,1);
+				}
 			}
 				
 				
