@@ -11,7 +11,7 @@ for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
 		
 		draw_x = (_xx - _yy) * (iso_width / 2);
 		//draw_y = (_xx + _yy) * (iso_height / 2);
-		
+
 		//draw_sprite(spr_pasto1, floor_ind, draw_x, draw_y);
 		//draw_sprite(spr_pasto1, index, draw_x, draw_y);
 	
