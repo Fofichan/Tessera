@@ -13,9 +13,9 @@
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Notes/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fuentes","folderPath":"folders/Fuentes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Notes/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"actionersObjects","folderPath":"folders/Objects/actionersObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Objects/Buttons.yy",},
@@ -57,7 +57,6 @@
     {"id":{"name":"spr_pasto18","path":"sprites/spr_pasto18/spr_pasto18.yy",},},
     {"id":{"name":"walk_down","path":"sprites/walk_down/walk_down.yy",},},
     {"id":{"name":"bg_fondo1","path":"sprites/bg_fondo1/bg_fondo1.yy",},},
-    {"id":{"name":"rm_view_daughter","path":"rooms/rm_view_daughter/rm_view_daughter.yy",},},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
     {"id":{"name":"Obj_botton_daughter","path":"objects/Obj_botton_daughter/Obj_botton_daughter.yy",},},
     {"id":{"name":"walk_up","path":"sprites/walk_up/walk_up.yy",},},
@@ -106,7 +105,6 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_selection","path":"rooms/rm_selection/rm_selection.yy",},},
-    {"roomId":{"name":"rm_view_daughter","path":"rooms/rm_view_daughter/rm_view_daughter.yy",},},
     {"roomId":{"name":"rm_view_mom","path":"rooms/rm_view_mom/rm_view_mom.yy",},},
     {"roomId":{"name":"rm_text","path":"rooms/rm_text/rm_text.yy",},},
     {"roomId":{"name":"Puzzle_daughter","path":"rooms/Puzzle_daughter/Puzzle_daughter.yy",},},
