@@ -62,7 +62,6 @@
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
     {"id":{"name":"walk_up","path":"sprites/walk_up/walk_up.yy",},},
     {"id":{"name":"fnt_texto","path":"fonts/fnt_texto/fnt_texto.yy",},},
-    {"id":{"name":"obj_dialog_box","path":"objects/obj_dialog_box/obj_dialog_box.yy",},},
     {"id":{"name":"walk_right","path":"sprites/walk_right/walk_right.yy",},},
     {"id":{"name":"obj_go_to_text","path":"objects/obj_go_to_text/obj_go_to_text.yy",},},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},},

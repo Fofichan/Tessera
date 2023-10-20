@@ -22,7 +22,6 @@
     {"name":"spr_house","order":5,"path":"sprites/spr_house/spr_house.yy",},
     {"name":"Sprite29","order":3,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"walk_up","order":6,"path":"sprites/walk_up/walk_up.yy",},
-    {"name":"obj_dialog_box","order":6,"path":"objects/obj_dialog_box/obj_dialog_box.yy",},
     {"name":"walk_right","order":4,"path":"sprites/walk_right/walk_right.yy",},
     {"name":"spr_exit","order":2,"path":"sprites/spr_exit/spr_exit.yy",},
     {"name":"obj_close_button","order":3,"path":"objects/obj_close_button/obj_close_button.yy",},
