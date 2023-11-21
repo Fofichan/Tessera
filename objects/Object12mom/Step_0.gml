@@ -7,7 +7,7 @@ if (string_length(keyboard_string) < limit) {
 }
 
 // Verifica si el mensaje contiene la palabra "hola"
-if (string_pos("12", message) > 0) {
+if (string_pos("39", message) > 0) {
     room_goto(WIN);
     show_debug_message("El mensaje contiene '12'.");
 } else {
