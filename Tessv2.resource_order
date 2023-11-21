@@ -11,6 +11,7 @@
     {"name":"index","order":6,"path":"folders/Rooms/index.yy",},
     {"name":"interior_house","order":7,"path":"folders/Rooms/interior_house.yy",},
     {"name":"Sounds","order":9,"path":"folders/Scripts/Sounds.yy",},
+    {"name":"Sonidos","order":1,"path":"folders/Sonidos.yy",},
     {"name":"background","order":30,"path":"folders/Sprites/background.yy",},
     {"name":"buttons","order":31,"path":"folders/Sprites/buttons.yy",},
     {"name":"close","order":2,"path":"folders/Sprites/buttons/close.yy",},
@@ -18,7 +19,6 @@
     {"name":"group1","order":33,"path":"folders/Sprites/group1.yy",},
     {"name":"logo","order":32,"path":"folders/Sprites/logo.yy",},
     {"name":"Personajes","order":26,"path":"folders/Sprites/Personajes.yy",},
-    {"name":"Sonidos","order":1,"path":"folders/Sonidos.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"fnt_rules","order":1,"path":"fonts/fnt_rules/fnt_rules.yy",},
