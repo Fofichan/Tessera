@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_puzzle_2_test",
+  "name": "rm_puzzle_2_tess",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_52837945_1_1","path":"rooms/rm_puzzle_2_test/rm_puzzle_2_test.yy",},
-    {"name":"inst_73BC0FA7","path":"rooms/rm_puzzle_2_test/rm_puzzle_2_test.yy",},
+    {"name":"inst_52837945_1_1","path":"rooms/rm_puzzle_2_tess/rm_puzzle_2_tess.yy",},
+    {"name":"inst_73BC0FA7","path":"rooms/rm_puzzle_2_tess/rm_puzzle_2_tess.yy",},
   ],
   "isDnd": false,
   "layers": [

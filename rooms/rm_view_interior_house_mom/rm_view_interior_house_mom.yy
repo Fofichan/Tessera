@@ -8,16 +8,16 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_1EFADA_2_1","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
-    {"name":"inst_475A3A4A","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
-    {"name":"inst_5AD3A733","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
     {"name":"inst_6D0DE41E","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
+    {"name":"inst_528120A7","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
+    {"name":"inst_13A046CB","path":"rooms/rm_view_interior_house_mom/rm_view_interior_house_mom.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EFADA_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"objMom","path":"objects/objMom/objMom.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_475A3A4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_to_win_mom","path":"objects/obj_to_win_mom/obj_to_win_mom.yy",},"properties":[],"rotation":0.0,"scaleX":0.0625,"scaleY":0.0625,"x":64.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AD3A733","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_to_win_mom","path":"objects/obj_to_win_mom/obj_to_win_mom.yy",},"properties":[],"rotation":0.0,"scaleX":0.0625,"scaleY":0.0625,"x":160.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_528120A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_to_win_mom","path":"objects/obj_to_win_mom/obj_to_win_mom.yy",},"properties":[],"rotation":0.0,"scaleX":0.0625,"scaleY":0.0625,"x":128.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13A046CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_to_win_mom_paper","path":"objects/obj_to_win_mom_paper/obj_to_win_mom_paper.yy",},"properties":[],"rotation":0.0,"scaleX":0.0625,"scaleY":0.0625,"x":32.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D0DE41E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_editor_int","path":"objects/obj_editor_int/obj_editor_int.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
