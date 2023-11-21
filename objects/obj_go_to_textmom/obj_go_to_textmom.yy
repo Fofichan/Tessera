@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "actionersObjects",
-    "path": "folders/Objects/actionersObjects.yy",
+    "name": "exterior_house",
+    "path": "folders/Objects/actionersObjects/exterior_house.yy",
   },
   "parentObjectId": null,
   "persistent": false,
