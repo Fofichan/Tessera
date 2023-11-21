@@ -24,7 +24,7 @@ for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
 			
 				var rgb_value = 150 + (draw_height * 9);
 				var col = make_color_rgb(rgb_value,rgb_value,rgb_value);
-				draw_sprite_ext(spr_pasto,floor_ind,draw_x,draw_y,1,1,0,col,1);
+				draw_sprite_ext(spr_pasto12,floor_ind,draw_x,draw_y,1,1,0,col,1);
 			
 				if(draw_height ==height){
 					var spr =global.cell_sprites[e_tile_data2.decoration_index];

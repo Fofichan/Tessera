@@ -36,8 +36,8 @@ for (var _yy = 10; _yy < vcells; _yy ++){
 
 #region SETUP SPRITE ARRAY
 
-global.cell_sprites[e_tile_data2.floor_index] =spr_pasto;
-global.cell_sprites[e_tile_data2.decoration_index] =spr_pasto;
+global.cell_sprites[e_tile_data2.floor_index] =spr_pasto12;
+global.cell_sprites[e_tile_data2.decoration_index] = spr_12;
 //global.cell_sprites[e_tile_data.decoration_index] =spr_arbol;
 
 #endregion

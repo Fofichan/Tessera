@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para más información
 function scr_load_game_data_int(){
 	show_debug_message("aqui-----------------------------------");
-	ini_open(working_directory+ "exterior-4.ini");
+	ini_open(working_directory+ "interior-2.ini");
 	total_maps= ini_read_real("Total Maps","Values",total_maps);
 
 	show_debug_message(total_maps);

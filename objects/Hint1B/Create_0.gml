@@ -1,0 +1,1 @@
+global.hint1b = 0;
