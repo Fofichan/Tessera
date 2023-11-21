@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_go_to_texttess",
+  "name": "obj_open_door_to_interior_mom",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":69,"eventType":10,"isDnD":false,},
@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "exterior_house",
-    "path": "folders/Objects/actionersObjects/exterior_house.yy",
+    "name": "exterior_house_opendoor",
+    "path": "folders/Objects/actionersObjects/exterior_house_opendoor.yy",
   },
   "parentObjectId": null,
   "persistent": false,
