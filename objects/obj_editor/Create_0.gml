@@ -3,7 +3,7 @@ enum e_tile_data{
 	floor_index, 
 	decoration_index,
 	height, 
-	last,
+	last
 }
 
 #endregion
@@ -39,7 +39,8 @@ for (var _yy = 10; _yy < vcells; _yy ++){
 #region SETUP SPRITE ARRAY
 
 global.cell_sprites[e_tile_data.floor_index] =spr_pasto1;
-global.cell_sprites[e_tile_data.decoration_index] =Sprite30;
+//global.cell_sprites[e_tile_data.decoration_index] =spr_valla;
+global.cell_sprites[e_tile_data.decoration_index] =spr_arbol;
 
 #endregion
 #region EXTRA VARIABLES

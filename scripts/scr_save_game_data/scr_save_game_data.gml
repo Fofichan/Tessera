@@ -8,7 +8,7 @@ function scr_save_game_data(){
 	}
 	ini_write_real("Total Maps","Values",ds_list_size(battle_map_list));
 	
-	ini_close()
-	
-	show_debug_message("scr_save_game_data finished")
+	ini_close();
+	show_debug_message(ds_list_size(battle_map_list));
+	show_debug_message("scr_save_game_data finished");
 }
