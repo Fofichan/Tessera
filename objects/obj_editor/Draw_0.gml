@@ -31,6 +31,7 @@ for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
 					var index = list[|e_tile_data.decoration_index];
 					draw_sprite_ext(spr,index,draw_x,draw_y,1,1,0,col,1);
 				}
+
 			}
 				
 				
@@ -67,6 +68,8 @@ for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
 					var spr = global.cell_sprites[current_part];
 					draw_sprite_ext(spr,new_index,draw_x,draw_y,1,1,0,c_yellow,1);
 		}
+
+
 			}
 		
 	
