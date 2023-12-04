@@ -122,21 +122,7 @@ if (ds_list_size(battle_map_list) > 0){
 
 #endregion
 
-#region CREATE NEW MAP
-if(keyboard_check_pressed(vk_enter)) scr_create_new_map(battle_map_list,ds_terrain_data);
 
-#endregion
-
-#region delete map
-if(keyboard_check_pressed(vk_backspace)){
-	current_map_number = scr_delete_map(current_map_number,battle_map_list);
-	if(ds_list_size(battle_map_list)>0){
-		ds_terrain_data = scr_load_map(current_map_number,ds_terrain_data,battle_map_list);
-	}
-	else scr_create_new_map(battle_map_list,ds_terrain_data);
-}
-	
-#endregion
 
 
 #region CHANGE THE HEIGHT

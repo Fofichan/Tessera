@@ -63,7 +63,7 @@ for (var _yy = 0; _yy < ds_grid_height(ds_terrain_data); _yy ++){
 		if (_xx == grid_x && _yy == grid_y){
 			for(var draw_height =0; draw_height<=current_height;draw_height++){
 				draw_y = (_xx+ _yy)* (iso_height/2) - (draw_height* (iso_height/2));
-				draw_sprite(spr_iso_cursor, 0, draw_x, draw_y);
+				//draw_sprite(spr_iso_cursor, 0, draw_x, draw_y);
 				if (current_part== e_tile_data.decoration_index){
 					var spr = global.cell_sprites[current_part];
 					draw_sprite_ext(spr,new_index,draw_x,draw_y,1,1,0,c_yellow,1);
