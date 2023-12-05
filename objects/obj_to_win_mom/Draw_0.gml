@@ -6,6 +6,7 @@ var distancia = point_distance(x, y, objMom.x, objMom.y);
 if (distancia <= distancia_umbral) {
     // Si el jugador está dentro de la distancia umbral, dibuja el objeto
     draw_self();
+	image_index = 2;
 }
 
 

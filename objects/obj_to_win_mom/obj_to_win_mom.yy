@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "e_letter",
-    "path": "sprites/e_letter/e_letter.yy",
+    "name": "spr_books",
+    "path": "sprites/spr_books/spr_books.yy",
   },
   "spriteMaskId": null,
   "visible": true,
